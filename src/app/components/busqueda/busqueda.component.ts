@@ -23,6 +23,7 @@ export class BusquedaComponent implements OnInit {
 
       this.termino = params['termino'];
       this.heroes = this._heroesService.buscarHeroes( params['termino'] );
+      console.log(this.heroes);
     });
   }
 
